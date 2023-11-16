@@ -1,2 +1,1 @@
-# prac
- Sppu
+SPPU SPOS
