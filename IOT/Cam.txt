@@ -1,0 +1,7 @@
+import RPi.GPIO as GPIO
+import os
+fnamr=input("Enter the file name")
+if(fname==):
+	print("File already exist")
+else:
+	os.system('fswebcam+fname)
