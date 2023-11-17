@@ -7,7 +7,7 @@ GPIO.setup(36,GPIO.OUT)
 while True:
     val=GPIO.input(8)
     print(val)
-    if val==1:
+    if(val==1):
         GPIO.output(36,GPIO.LOW)
         print("Not Detecting.....")
     else:
