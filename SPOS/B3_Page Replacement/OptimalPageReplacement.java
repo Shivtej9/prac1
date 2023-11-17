@@ -10,6 +10,7 @@ public class OptimalPageReplacement {
         System.out.print("Enter the number of pages you want to enter: ");
         noofpages = sc.nextInt();
         int pages[] = new int[noofpages];
+        System.out.println("Enter "+noofpages+" entries:");
         for (int i = 0; i < noofpages; i++) {
             pages[i] = sc.nextInt();
         }
