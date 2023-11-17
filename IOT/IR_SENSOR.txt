@@ -1,16 +1,16 @@
 import Rpi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BOARD)
-GPIO.steup(3,GPIO.IN)
-GPIO.setup(5,GPIO.OUT)
+GPIO.steup(8,GPIO.IN)
+GPIO.setup(36,GPIO.OUT)
 
 while True:
-    val=GPIO.input(3)
+    val=GPIO.input(8)
     print(val)
     if val==1:
-        GPIO.output(5,GPIO.LOW)
+        GPIO.output(36,GPIO.LOW)
         print("Not Detecting.....")
     else:
-        GPIO.output(5,GPIO.HIGH)
+        GPIO.output(36,GPIO.HIGH)
         print("Detected !!") 
 
